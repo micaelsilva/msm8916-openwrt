@@ -43,7 +43,7 @@ jobs:
       run: |
         df -hT $PWD
         git clone https://git.openwrt.org/openwrt/openwrt.git openwrt
-        git -C openwrt checkout 00ceb1ed1763f7479df6edf92ffada948f0e7d45
+        git -C openwrt checkout v25.12.0
 
     - name: Load msm89xx target and packages
       run: |
